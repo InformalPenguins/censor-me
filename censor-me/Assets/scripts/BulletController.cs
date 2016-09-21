@@ -15,12 +15,21 @@ public class BulletController : MonoBehaviour {
     }
 
 	void FixedUpdate () {
+		// movement
 		myTransform.Translate (Vector2.right * (speed + gameController.GameSpeed()) * Time.deltaTime);
 
+		// destroy when is out of the screen
 		Vector2 max = UnityEngine.Camera.main.ViewportToWorldPoint(new Vector2(1, 1));
 
 		if (myTransform.position.x > max.x) {
 			Destroy (gameObject);
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D collider) {
+		// layer 8 - Ground
+		if (collider.gameObject.layer == 8) {
+			Destroy(gameObject);
 		}
 	}
 }

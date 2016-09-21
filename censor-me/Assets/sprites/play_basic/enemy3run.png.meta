@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: be7cbb548048641efb29909514fb71c2
+timeCreated: 1469389921
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemy3run_0
+    21300002: enemy3run_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enemy3run_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 434
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 180, y: -68.5}
+        - {x: 187, y: -67.5}
+        - {x: 187, y: -46.5}
+        - {x: 148, y: 55.5}
+        - {x: 132, y: 110.5}
+        - {x: 138, y: 155.5}
+        - {x: 172, y: 206.5}
+        - {x: 174, y: 234.5}
+        - {x: 186, y: 306.5}
+        - {x: 109, y: 298.5}
+        - {x: 127, y: 332.5}
+        - {x: 133, y: 346.5}
+        - {x: 132, y: 350.5}
+        - {x: 118, y: 342.5}
+        - {x: 93, y: 352.5}
+        - {x: 37, y: 352.5}
+        - {x: 35, y: 351.5}
+        - {x: 34, y: 347.5}
+        - {x: 1, y: 342.5}
+        - {x: -6, y: 340.5}
+        - {x: -4, y: 329.5}
+        - {x: -14, y: 240.5}
+        - {x: -27, y: 191.5}
+        - {x: -22, y: 131.5}
+        - {x: -70, y: 125.5}
+        - {x: -84, y: 109.5}
+        - {x: -156, y: -22.5}
+        - {x: -156, y: -47.5}
+        - {x: -150, y: -47.5}
+        - {x: -58, y: 5.5}
+        - {x: -108, y: -334.5}
+        - {x: -97, y: -347.5}
+        - {x: -90, y: -347.5}
+        - {x: 6, y: -176.5}
+        - {x: 24, y: -361.5}
+        - {x: 25, y: -362.5}
+        - {x: 35, y: -362.5}
+        - {x: 54, y: -329.5}
+        - {x: 88, y: -141.5}
+        - {x: 86, y: 11.5}
+    - name: enemy3run_1
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 434
+        height: 739
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -346.5}
+        - {x: 38, y: -342.5}
+        - {x: 45, y: -260.5}
+        - {x: 42, y: -115.5}
+        - {x: 3, y: 36.5}
+        - {x: 115, y: -19.5}
+        - {x: 118, y: -20.5}
+        - {x: 119, y: -18.5}
+        - {x: 119, y: -10.5}
+        - {x: 75, y: 53.5}
+        - {x: 29, y: 130.5}
+        - {x: 35, y: 208.5}
+        - {x: 57, y: 272.5}
+        - {x: 34, y: 305.5}
+        - {x: 28, y: 329.5}
+        - {x: 26, y: 334.5}
+        - {x: 22, y: 333.5}
+        - {x: -41, y: 302.5}
+        - {x: -22, y: 369.5}
+        - {x: -35, y: 369.5}
+        - {x: -74, y: 354.5}
+        - {x: -79, y: 345.5}
+        - {x: -114, y: 369.5}
+        - {x: -136, y: 369.5}
+        - {x: -159, y: 344.5}
+        - {x: -143, y: 238.5}
+        - {x: -195, y: 121.5}
+        - {x: -187, y: 70.5}
+        - {x: -217, y: -45.5}
+        - {x: -217, y: -77.5}
+        - {x: -215, y: -76.5}
+        - {x: -136, y: -2.5}
+        - {x: -127, y: -134.5}
+        - {x: -107, y: -342.5}
+        - {x: -97, y: -354.5}
+        - {x: -93, y: -354.5}
+        - {x: -90, y: -349.5}
+        - {x: -58, y: -223.5}
+        - {x: -37, y: -157.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

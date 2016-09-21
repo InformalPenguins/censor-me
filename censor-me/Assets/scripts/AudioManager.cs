@@ -76,7 +76,10 @@ public class AudioManager : MonoBehaviour {
     }
 
     public void PlayMenuMusic() {
-        PlayMusic(mainMenuMusic);
+		// we do not want to restart the the music again
+		if (myMusicPlayer.clip == null || !myMusicPlayer.clip.Equals (mainMenuMusic)) {
+			PlayMusic(mainMenuMusic);
+		}
     }
 
     public void PlayGameMusic() {

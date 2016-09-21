@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
 		// Shoot
 		if ((Input.GetKeyDown(KeyCode.M) || inputController.IsShooting()) && canShoot) {
             GameObject aBullet = (GameObject)Instantiate (newBullet);
-			aBullet.transform.position = new Vector3 (myRigidBody.position.x + 4f, myRigidBody.position.y - 4f, 1f);
+			aBullet.transform.position = new Vector3 (myRigidBody.position.x + 3f, myRigidBody.position.y, 1f);
 			canShoot = false;
             audioManager.PlayShootSFX();
         }
@@ -74,8 +74,8 @@ public class PlayerController : MonoBehaviour
 		if (collider.gameObject.layer == 11 || collider.gameObject.layer == 12) {
 			Die ();
 		} else if (collider.gameObject.layer == 13) {
+			Destroy(collider.gameObject);
             gameController.AddCoin();
-            Destroy(collider.gameObject);
             audioManager.PlayCoinSFX();
         }
     }

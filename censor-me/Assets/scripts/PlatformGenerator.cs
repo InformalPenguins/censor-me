@@ -14,7 +14,7 @@ public class PlatformGenerator : MonoBehaviour {
     private GameController gameController;
 
 	private GameObject oldPlatform;
-	private float minY, maxY, lastYUsed, initialY = -5f;
+	private float minY, maxY, lastYUsed, initialY = -5f, initialZ = 2f;
 
 	// Use this for initialization
 	void Start () {
@@ -58,13 +58,13 @@ public class PlatformGenerator : MonoBehaviour {
 
 	private GameObject CreatePlatform(float x, float y) {
 		GameObject newPlatform = CreatePlatform();
-		newPlatform.transform.position = new Vector3 (x, y, 1f);
+		newPlatform.transform.position = new Vector3 (x, y, initialZ);
 		return newPlatform;
 	}
 
 	private GameObject CreatePlatform(float x, float y, int index) {
 		GameObject newPlatform = (GameObject)Instantiate (basePlatforms[index]);
-		newPlatform.transform.position = new Vector3 (x, y, 1f);
+		newPlatform.transform.position = new Vector3 (x, y, initialZ);
 		return newPlatform;
 	}
 }

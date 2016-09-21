@@ -1,9 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "censor-me.CSharp", "censor-me.CSharp.csproj", "{4579C9DF-1150-7D4A-8829-895610CAAE08}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "censor-me.CSharp.Editor", "censor-me.CSharp.Editor.csproj", "{017E68B0-8377-99E8-3BD2-6E3C1BEA1060}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C2C2455A-8B84-B7F4-A469-CFDFEC90AA53}") = "censor-me", "Assembly-CSharp.csproj", "{77878B2B-783A-EF01-CDA5-F8A46EC99BDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4579C9DF-1150-7D4A-8829-895610CAAE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4579C9DF-1150-7D4A-8829-895610CAAE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4579C9DF-1150-7D4A-8829-895610CAAE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4579C9DF-1150-7D4A-8829-895610CAAE08}.Release|Any CPU.Build.0 = Release|Any CPU
-		{017E68B0-8377-99E8-3BD2-6E3C1BEA1060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{017E68B0-8377-99E8-3BD2-6E3C1BEA1060}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{017E68B0-8377-99E8-3BD2-6E3C1BEA1060}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{017E68B0-8377-99E8-3BD2-6E3C1BEA1060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77878B2B-783A-EF01-CDA5-F8A46EC99BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77878B2B-783A-EF01-CDA5-F8A46EC99BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77878B2B-783A-EF01-CDA5-F8A46EC99BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77878B2B-783A-EF01-CDA5-F8A46EC99BDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

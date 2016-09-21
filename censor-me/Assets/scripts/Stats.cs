@@ -14,10 +14,6 @@ public class Stats {
     public List<World> WorldsOwned { get; set; }
 
     public World WorldSelected { get; set; }
-
-    public Stats() {
-        WorldsOwned = new List<World>();
-    }
 }
 
 public enum World {

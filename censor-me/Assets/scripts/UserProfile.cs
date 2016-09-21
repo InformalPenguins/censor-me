@@ -33,8 +33,12 @@ class UserProfile {
 
         if (data.WorldsOwned == null) {
             data.WorldsOwned = new List<World>();
-            data.WorldsOwned.Add(World.BASIC);
         }
+
+		if (!data.WorldsOwned.Contains (World.BASIC)) {
+			// lol hack
+			data.WorldsOwned.Add(World.BASIC);
+		}
 
         return data;
     }
